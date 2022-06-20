@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "mksnapshot": "^0.3.5"
+  }
+}
