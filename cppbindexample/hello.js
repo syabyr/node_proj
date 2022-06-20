@@ -1,8 +1,5 @@
-{
-  "targets": [
-    {
-      "target_name": "addon",
-      "sources": [ "hello.cc" ]
-    }
-  ]
-}
+// hello.js
+const addon = require('./build/Release/addon');
+
+console.log(addon.hello());
+// 打印: 'world'
